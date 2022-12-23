@@ -192,7 +192,6 @@ def start_spam(_phone):
                 except:
                     pass
                 try:
-                try:
                     requests.post("https://suandshi.ru/mobile_api/register_mobile_user",params={"phone": _phone})
                 except:
                     pass
